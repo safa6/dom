@@ -1,0 +1,98 @@
+body{
+font-family: Arial, Helvetica, sans-serif;   
+}
+*{
+    margin: 0;
+    padding: 0;
+
+
+i{
+margin-right: 10 px;
+}
+
+input:focus,
+button:focus,
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-control:disabled, .form-control[readonly]{
+    background-color: #fff;
+}
+.table tr,
+.table tr td{
+    vertical-align: middle;
+}
+.button-container{
+ display: flex;
+ align-items: center;   
+}
+.button-container .form-control {
+    max-width: 80 px;
+    text-align:center ;
+    display: inline-block;
+    margin: 0px 5px;
+}
+#myTable .form-control{
+    width: auto;
+    display: inline-block;
+}
+.cart-qty-plus,
+.cart-qty-minus{
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border: radius 0.25rem;
+}
+.cart-qty-plus:hover,
+.cart-qty-minus:hover{
+    background-color: #5161ce;
+    color:#fff;
+
+}
+.img-prdct{
+    width: 50px;
+    height:50px;
+    background-color:#5161ce ;
+    border-radius: 4px;
+
+}
+.img-prdct img{
+    width: 100%;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: end;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button1:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
